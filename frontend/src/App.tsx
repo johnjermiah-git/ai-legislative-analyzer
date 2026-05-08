@@ -69,7 +69,7 @@ export default function App() {
 
         <footer className="mt-16 text-center border-t border-gray-800 pt-6">
           <p className="text-blue-400 font-semibold">
-            DEVELOPED BY - K. John Jermiah
+            K. John Jermiah
           </p>
 
           <a
