@@ -44,9 +44,6 @@ export default function App() {
           Simplifying laws for citizens using AI
         </p>
 
-        <p className="text-center text-blue-400 mb-8">
-          Developed by John Jeremiah
-        </p>
 
         {/* Input */}
         <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
@@ -69,6 +66,21 @@ export default function App() {
         <div className="mt-6">
           {result && <SummaryCard data={result} />}
         </div>
+
+        <footer className="mt-16 text-center border-t border-gray-800 pt-6">
+          <p className="text-blue-400 font-semibold">
+            K. John Jermiah
+          </p>
+
+          <a
+            href="https://www.linkedin.com/in/john-jermiah-513a27326/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-blue-300 transition"
+          >
+            MY LINKEDIN PROFILE
+          </a>
+        </footer>
 
       </div>
     </div>
