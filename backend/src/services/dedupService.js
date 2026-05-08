@@ -33,8 +33,14 @@ export function deduplicateSummaries(summaries) {
 
       if (sim > threshold) {
         isDuplicate = true;
+
+        // keep shorter (more dense) version
+        if (current.length < existing.length) {
+            result[result.indexOf(existing)] = current;
+        }
+
         break;
-      }
+    }
     }
 
     if (!isDuplicate) {

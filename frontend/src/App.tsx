@@ -44,6 +44,10 @@ export default function App() {
           Simplifying laws for citizens using AI
         </p>
 
+        <p className="text-center text-blue-400 mb-8">
+          Developed by John Jeremiah
+        </p>
+
         {/* Input */}
         <div className="bg-gray-900 p-6 rounded-2xl border border-gray-800">
           <textarea

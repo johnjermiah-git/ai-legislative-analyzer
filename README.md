@@ -9,6 +9,9 @@
 
 ---
 
+## 🔴 Live URL(Deployed Project)
+
+https://ai-legislative-analyzer-iota.vercel.app/
 ## 📌 Overview
 
 **AI Legislative Analyzer** is a full-stack web application that transforms dense legal documents into structured, easy-to-understand summaries. Using an LLM under the hood, it extracts key components from legal text and presents them in clean, categorized summary cards — making legal information accessible to anyone, regardless of their legal background.
